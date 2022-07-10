@@ -6,7 +6,7 @@ module.exports = defineConfig({
       .rule('images')
         .set('parser', {
           dataUrlCondition: {
-            maxSize: 4 * 1024 // 4KiB
+            maxSize: 1 * 1024 // 4KiB
           }
         })
   }
